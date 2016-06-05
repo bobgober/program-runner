@@ -15,11 +15,11 @@ while(running == True):
     command = raw_input("-->")
     if command == "path of exile" or "poe":
         poe()
-    if command == "spotify":
+    elif command == "spotify":
         spotify()
-    if command == "media keys":
+    elif command == "media keys":
         media_keys()
-    if command == "skype":
+    elif command == "skype":
         skype()
-    if command == "league of legends" or "lol":
+    elif command == "league of legends" or "lol":
         lol()
